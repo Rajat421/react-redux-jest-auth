@@ -11,7 +11,7 @@ exports[`Home component should render as expected 1`] = `
       "entries": Array [
         Object {
           "hash": "",
-          "key": "7o7cfj",
+          "key": "8hlptm",
           "pathname": "/home",
           "search": "",
           "state": undefined,
@@ -25,7 +25,7 @@ exports[`Home component should render as expected 1`] = `
       "listen": [Function],
       "location": Object {
         "hash": "",
-        "key": "7o7cfj",
+        "key": "8hlptm",
         "pathname": "/home",
         "search": "",
         "state": undefined,

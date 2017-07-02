@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59637670-7abe-445c-aaea-e72a5379ff7d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes.test.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/AboutUs/aboutus.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Header/header.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Home/home.test.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AboutUs/aboutus.js" afterPath="$PROJECT_DIR$/src/components/AboutUs/aboutus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Home/home.js" afterPath="$PROJECT_DIR$/src/components/Home/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Login/login.test.js" afterPath="$PROJECT_DIR$/src/components/Login/login.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AboutUs/__snapshots__/aboutus.test.js.snap" afterPath="$PROJECT_DIR$/src/components/AboutUs/__snapshots__/aboutus.test.js.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AboutUs/contactus/__snapshots__/conatactus.test.js.snap" afterPath="$PROJECT_DIR$/src/components/AboutUs/contactus/__snapshots__/conatactus.test.js.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AboutUs/contactus/contactus.js" afterPath="$PROJECT_DIR$/src/components/AboutUs/contactus/contactus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AboutUs/profile/__snapshots__/profile.test.js.snap" afterPath="$PROJECT_DIR$/src/components/AboutUs/profile/__snapshots__/profile.test.js.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/__snapshots__/header.test.js.snap" afterPath="$PROJECT_DIR$/src/components/Header/__snapshots__/header.test.js.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Home/__snapshots__/home.test.js.snap" afterPath="$PROJECT_DIR$/src/components/Home/__snapshots__/home.test.js.snap" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="react-redux-jest-auth.iws" />
@@ -57,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authActions.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="authActions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/authActions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="274">
@@ -114,6 +111,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="contactus.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AboutUs/contactus/contactus.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="104" selection-start-line="11" selection-start-column="104" selection-end-line="11" selection-end-column="104" />
+              <folding>
+                <element signature="e#43#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="aboutus.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/AboutUs/aboutus.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,26 +135,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Header/header.test.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#1#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Home/home.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-              <folding>
-                <element signature="e#44#70#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -191,7 +186,6 @@
         <option value="$PROJECT_DIR$/src/components/AboutUs/contactus/contactus.css" />
         <option value="$PROJECT_DIR$/src/components/AboutUs/profile/profile.js" />
         <option value="$PROJECT_DIR$/src/components/AboutUs/team/team.js" />
-        <option value="$PROJECT_DIR$/src/components/AboutUs/contactus/contactus.js" />
         <option value="$PROJECT_DIR$/src/components/Header/header.css" />
         <option value="$PROJECT_DIR$/src/common/users.js" />
         <option value="$PROJECT_DIR$/src/components/Header/header.js" />
@@ -201,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/mock-local-storage.js" />
         <option value="$PROJECT_DIR$/config-readme.md" />
         <option value="$PROJECT_DIR$/src/components/Login/login.test.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
         <option value="$PROJECT_DIR$/src/routes.test.js" />
         <option value="$PROJECT_DIR$/src/components/Home/home.js" />
@@ -214,6 +207,8 @@
         <option value="$PROJECT_DIR$/src/components/Home/home.test.js" />
         <option value="$PROJECT_DIR$/src/components/AboutUs/aboutus.test.js" />
         <option value="$PROJECT_DIR$/src/components/AboutUs/aboutus.js" />
+        <option value="$PROJECT_DIR$/src/components/AboutUs/contactus/contactus.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -344,6 +339,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AboutUs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contactus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-redux-jest-auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-redux-jest-auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -371,7 +392,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/clone" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -463,12 +484,12 @@
       <workItem from="1498892161199" duration="352000" />
       <workItem from="1498896931818" duration="6050000" />
       <workItem from="1498915615868" duration="19782000" />
-      <workItem from="1498961717682" duration="21338000" />
+      <workItem from="1498961717682" duration="23237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82220000" />
+    <option name="totallyTimeSpent" value="84119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -481,7 +502,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29459903" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5286416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -639,14 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AboutUs/contactus/contactus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -765,22 +778,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="39" />
           <folding>
-            <element signature="e#43#68#0" expanded="true" />
+            <element signature="e#43#68#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -834,7 +837,7 @@
         <state relative-caret-position="301">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#1#27#0" expanded="true" />
+            <element signature="e#1#27#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -844,7 +847,7 @@
         <state relative-caret-position="119">
           <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding>
-            <element signature="e#44#70#0" expanded="true" />
+            <element signature="e#44#70#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -920,6 +923,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AboutUs/contactus/contactus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="104" selection-start-line="11" selection-start-column="104" selection-end-line="11" selection-end-column="104" />
+          <folding>
+            <element signature="e#43#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
           <folding />
         </state>
       </provider>

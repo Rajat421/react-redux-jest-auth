@@ -4,6 +4,12 @@ exports[`Contact component should render as expected 1`] = `
 <div>
   <section
     className="contactus section_padding"
+    style={
+      Object {
+        "display": "table",
+        "paddingTop": "47px",
+      }
+    }
   >
     <h3
       className="heading_h3"

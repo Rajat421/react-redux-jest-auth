@@ -9,7 +9,7 @@ class ContactUs extends Component{
     render(){
         return(
             <div>
-                <section className="contactus section_padding">
+                <section className="contactus section_padding" style={{display:'table',paddingTop:'47px'}}>
                     <h3 className="heading_h3">Contact Us</h3>
 
                     <p className="text_paragraphs">

@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import createBrowserHistory from "history/createBrowserHistory";
 import "./index.css";
 import {createStore, applyMiddleware} from "redux";
 import thunk from "redux-thunk";
@@ -10,7 +9,6 @@ import Reducer from "./reducers/index";
 import registerServiceWorker from "./registerServiceWorker";
 import "./static/css/responsive.css";
 import Router from './routes'
-const history = createBrowserHistory();
 
 const store= createStore(Reducer,{},applyMiddleware(logger,thunk))
 

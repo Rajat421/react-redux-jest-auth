@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Contact component should render as expected 1`] = `
+exports[`Profile component should render as expected 1`] = `
 <div>
   <section
     className="aboutus section_padding"
