@@ -1,19 +1,25 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
+import {shallow} from 'enzyme'
 import ConnectedLogin ,{Login} from './login'
-import configureStore from 'redux-mock-store'
-import { mount } from 'enzyme'
-import {Provider} from 'react-redux'
-import Reducer from '../../reducers/index'
-import {login} from '../../actions/authActions'
-import * as types from '../../common/actionTypes'
-import logger from "redux-logger";
-import thunk from "redux-thunk";
-//Dumb component Test------ without store------
-test('Load without crashing' ,()=>{
-    const div = document.createElement('div');
-    ReactDOM.render(<Login />, div);
-});
+
+
+describe('Dumb Component',()=>{
+    const wrapper = shallow(<Login />);
+    test('Load without crashing' ,()=>{
+        const div = document.createElement('div');
+        ReactDOM.render(<Login />, div);
+    });
+
+    test('check it contains form with three input',()=>{
+        expect(wrapper.find('form').length).toBe(1)
+        expect(wrapper.find('input').length).toBe(3);
+        expect(wrapper.containsMatchingElement(<input type="text" name="email"/>)).toEqual(true)
+        expect(wrapper.containsMatchingElement(<input type="password" name="password"/>)).toEqual(true)
+        expect(wrapper.containsMatchingElement(<input type="button" value="Login"/>)).toEqual(true)
+    })
+})
+
 
 
 //test for smart component
@@ -25,9 +31,9 @@ test('Load without crashing' ,()=>{
 //     let store,wrapper;
 //
 //     beforeEach(()=>{
-//         store = mockStore(Reducer,initialState,middlewares);
+//         store = mockStore(intialstate);
 //         wrapper = mount( <Provider store={store}><ConnectedLogin /></Provider> )
-//         console.log(wrapper,'--ewr')
+//
 //     })
 //
 //

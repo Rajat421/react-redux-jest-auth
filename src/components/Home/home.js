@@ -11,9 +11,9 @@ import {Link} from 'react-router-dom'
 import * as actions from '../../actions/authActions'
 import {connect} from 'react-redux'
 
-class Home extends Component{
+export class Home extends Component{
     constructor(props){
-        super(props)
+        super(props);
         if(!localStorage.getItem('key')){
             this.props.history.push('/')
         }
@@ -80,13 +80,6 @@ const mapStateToProps=(state)=>{
         isAuthenticated:state.auth.isAuthenticated
     }
 }
-// const mapDispatchToProps=(dispatch)=>{
-//     return {
-//
-//         logout:()=>{
-//             dispatch(logout())
-//         }
-//     }
-// }
+
 
 export default connect(mapStateToProps,actions)(Home);
